@@ -1,13 +1,11 @@
-#Printing Random Satements...
-
+#Printing Random Satements
 print("\n")
 print("Hello World!")
 print("My name is Taneshka Mehta, This is a simple python code")
 print("\n")
 
 
-#Input Function...
-
+#Input Function
 name = input("What is your name?:")
 print("\n")
 age = input("What is your age?:")
@@ -56,7 +54,7 @@ for i in range (1, 15):
     print("Number {0} -- square is {1} and cube is {2}".format(i, i**2, i**3))
 print("\n")
 
-#Data Type - List, Tuple, Set, Dictionary... 
+#Data Type - List, Tuple, Set, Dictionary
 lst = [10,20,30,40,50,60]
 tpl = (1,2,'Taanu',True,'rst')
 s = {50,100,150,200,250}
@@ -77,7 +75,7 @@ print(max(lst))
 print(lst + [70,80,90,100])
 print("\n")
 
-#Function...
+#Function
 def sum(x,y):
     sum = x+y
     return sum
